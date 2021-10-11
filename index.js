@@ -19,8 +19,6 @@ function removeUser(socketId) {
 
 function getUsers(denunciaId, socketId) {
   const users = usersDenunciaId.map((user) => {
-    console.log(denunciaId);
-    console.log(user.denunciaId);
     if (user.denunciaId === denunciaId && user.socketId != socketId) {
       return user.socketId;
     }
