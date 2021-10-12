@@ -1,7 +1,7 @@
 const io = require("socket.io")(3004, {
   cors: {
     //origin: "http://localhost:3005",
-    origin: "http://vozdopovo.ddns.net:3000" 
+    origin: "http://vozdopovo.ddns.net:2222/" 
   },
 });
 
