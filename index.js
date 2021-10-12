@@ -1,4 +1,4 @@
-const io = require("socket.io")(3001, {
+const io = require("socket.io")(3004, {
   cors: {
     origin: "http://vozdopovo.ddns.net:2222/" 
   },
